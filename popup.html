@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cronometer Shortcodes Settings</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      width: 420px;
+      margin: 0;
+      padding: 0;
+      background-color: #0f172a;
+      color: #f8fafc;
+      font-family: 'Inter', sans-serif;
+    }
+    header {
+      background-color: #1e293b;
+      padding: 16px;
+      border-bottom: 1px solid #334155;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: #4caf50;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .container {
+      padding: 16px;
+    }
+    .form-group {
+      margin-bottom: 12px;
+    }
+    label {
+      display: block;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #94a3b8;
+      margin-bottom: 4px;
+    }
+    input, select {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 1px solid #475569;
+      background-color: #1e293b;
+      color: white;
+      font-size: 13px;
+      outline: none;
+    }
+    input:focus {
+      border-color: #4caf50;
+    }
+    .inline-group {
+      display: flex;
+      gap: 12px;
+    }
+    .inline-group > div {
+      flex: 1;
+    }
+    button.primary {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      width: 100%;
+      font-size: 13px;
+      margin-top: 6px;
+    }
+    button.primary:hover {
+      background-color: #43a047;
+    }
+    .shortcode-list {
+      margin-top: 18px;
+      border-top: 1px solid #334155;
+      padding-top: 16px;
+      max-height: 250px;
+      overflow-y: auto;
+    }
+    .shortcode-item {
+      background-color: #1e293b;
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-left: 3px solid #4caf50;
+    }
+    .shortcode-info {
+      flex: 1;
+      min-width: 0;
+    }
+    .shortcode-name {
+      font-size: 12px;
+      color: #cbd5e1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .shortcode-meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      color: #4caf50;
+      font-weight: 600;
+    }
+    .delete-btn {
+      background: none;
+      border: none;
+      color: #ef4444;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 4px 8px;
+    }
+    .edit-btn {
+      background: none;
+      border: none;
+      color: #38bdf8;
+      font-size: 13px;
+      cursor: pointer;
+      padding: 4px 8px;
+    }
+    .footer {
+      padding: 12px;
+      text-align: center;
+      font-size: 11px;
+      color: #64748b;
+      border-top: 1px solid #334155;
+      background-color: #0b0f19;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span>⌨️</span> Shortcode Input Sidebar</h1>
+    <span style="font-size: 11px; padding: 2px 6px; background-color: #334155; border-radius: 4px; color: #94a3b8;">v1.1.0</span>
+  </header>
+  
+  <div class="container">
+    <div style="font-size: 12px; color: #94a3b8; margin-bottom: 14px;">
+      Define keys to trigger fast food entries in Cronometer. On cronometer.com/diary, tap the floating button or click this icon to slide open the side log board.
+    </div>
+
+    <!-- Create shortcode field -->
+    <div style="background-color: #1e293b; padding: 12px; border-radius: 8px; border: 1px solid #334155;">
+      <h3 id="form-header" style="margin: 0 0 10px 0; font-size: 13px; font-weight: 600; color: #cbd5e1;">Register New Shortcode</h3>
+      
+      <div class="inline-group">
+        <div class="form-group" style="flex: 0 0 80px;">
+          <label for="code">Code</label>
+          <input type="text" id="code" placeholder="pb" style="font-family: monospace;">
+        </div>
+        <div class="form-group">
+          <label for="foodName">Cronometer Food Query Name</label>
+          <input type="text" id="foodName" placeholder="Peanut Butter, Smooth">
+        </div>
+      </div>
+
+      <div class="inline-group">
+        <div class="form-group">
+          <label for="quantity">Default Qty</label>
+          <input type="number" id="quantity" value="1" step="any">
+        </div>
+        <div class="form-group">
+          <label for="unit">Default Unit</label>
+          <input type="text" id="unit" placeholder="g" value="g">
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 8px; margin-top: 10px;">
+        <button id="cancel-edit-btn" style="display: none; background-color: #475569; color: white; border: none; padding: 10px 12px; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 13px; flex: 1;">Cancel</button>
+        <button id="save-sc-btn" class="primary" style="margin-top: 0; flex: 2;">Save Shortcode</button>
+      </div>
+    </div>
+
+    <div class="shortcode-list" id="code-list">
+      <label>Registered Codes</label>
+      <!-- Registered codes populate here -->
+    </div>
+  </div>
+
+  <div class="footer">
+    Make sure you are on <strong>cronometer.com</strong> to start compiling!
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

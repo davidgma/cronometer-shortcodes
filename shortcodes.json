@@ -1,0 +1,907 @@
+{
+  "ac": {
+    "foodName": "apple cider vinegar",
+    "defaultQuantity": 5,
+    "unit": "g"
+  },
+  "aj": {
+    "foodName": "apple juice not fortified",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "al": {
+    "foodName": "almonds raw",
+    "defaultQuantity": 30,
+    "unit": "g"
+  },
+  "am": {
+    "foodName": "amaranth flour",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "ani": {
+    "foodName": "anise seed",
+    "defaultQuantity": 0.5,
+    "unit": "g"
+  },
+  "ans": {
+    "foodName": "apple raw without skin",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "ao": {
+    "foodName": "avocado oil",
+    "defaultQuantity": 20,
+    "unit": "g"
+  },
+  "as": {
+    "foodName": "asparagus raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "av": {
+    "foodName": "avocados raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "aws": {
+    "foodName": "apple with skin still on",
+    "defaultQuantity": 1,
+    "unit": "g"
+  },
+  "bb": {
+    "foodName": "blueberries raw",
+    "defaultQuantity": 150,
+    "unit": "g"
+  },
+  "bbe": {
+    "foodName": "blackberries raw",
+    "defaultQuantity": 150,
+    "unit": "g"
+  },
+  "bcs": {
+    "foodName": "borough broth organic chicken",
+    "defaultQuantity": 40,
+    "unit": "g"
+  },
+  "bf": {
+    "foodName": "barley flour whole grain",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "bj": {
+    "foodName": "beet juice",
+    "defaultQuantity": 150,
+    "unit": "g"
+  },
+  "bn": {
+    "foodName": "brazil nuts",
+    "defaultQuantity": 2,
+    "unit": "g"
+  },
+  "bo": {
+    "foodName": "brown onion",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "bor": {
+    "foodName": "blood oranges",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "br": {
+    "foodName": "black rice",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "bra": {
+    "foodName": "brazil nuts",
+    "defaultQuantity": 4,
+    "unit": "g"
+  },
+  "bri": {
+    "foodName": "brie cheese",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "bro": {
+    "foodName": "brown rice uncooked",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "broc": {
+    "foodName": "broccoli raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "broo": {
+    "foodName": "beets raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "bs": {
+    "foodName": "brown sugar",
+    "defaultQuantity": 5,
+    "unit": "g"
+  },
+  "bsq": {
+    "foodName": "butternut squash",
+    "defaultQuantity": 200,
+    "unit": "g"
+  },
+  "bu": {
+    "foodName": "butter salted organic",
+    "defaultQuantity": 10,
+    "unit": "g"
+  },
+  "buf": {
+    "foodName": "bukcwheat flour",
+    "defaultQuantity": 25,
+    "unit": "g"
+  },
+  "bw": {
+    "foodName": "buckwheat flour",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "ca": {
+    "foodName": "capers",
+    "defaultQuantity": 5,
+    "unit": "g"
+  },
+  "can": {
+    "foodName": "cantaloupe melon",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "car": {
+    "foodName": "carrots raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "cau": {
+    "foodName": "cauliflower raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "cc": {
+    "foodName": "coconut oil organic",
+    "defaultQuantity": 20,
+    "unit": "g"
+  },
+  "cch": {
+    "foodName": "cream cheese",
+    "defaultQuantity": 40,
+    "unit": "g"
+  },
+  "ce": {
+    "foodName": "celery raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "cel": {
+    "foodName": "celeriac raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "ch": {
+    "foodName": "cherries sweet raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "chd": {
+    "foodName": "chicken dark meat roasted",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "chl": {
+    "foodName": "chicken light meat raw",
+    "defaultQuantity": 150,
+    "unit": "g"
+  },
+  "chlr": {
+    "foodName": "chicken light meat roasted",
+    "defaultQuantity": 160,
+    "unit": "g"
+  },
+  "chp": {
+    "foodName": "chili powder",
+    "defaultQuantity": 0.1,
+    "unit": "g"
+  },
+  "ci": {
+    "foodName": "cinnamon ground",
+    "defaultQuantity": 0.5,
+    "unit": "g"
+  },
+  "cl": {
+    "foodName": "cloves ground",
+    "defaultQuantity": 0.1,
+    "unit": "g"
+  },
+  "clc": {
+    "foodName": "chicken liver all classes cooked simmered",
+    "defaultQuantity": 40,
+    "unit": "g"
+  },
+  "cle": {
+    "foodName": "cauliflower leaves",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "cm": {
+    "foodName": "Melons cantaloupe raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "cn": {
+    "foodName": "kale raw",
+    "defaultQuantity": 30,
+    "unit": "g"
+  },
+  "co": {
+    "foodName": "coffee",
+    "defaultQuantity": 600,
+    "unit": "g"
+  },
+  "coc": {
+    "foodName": "cocoa powder unsweetened",
+    "defaultQuantity": 8,
+    "unit": "g"
+  },
+  "cor": {
+    "foodName": "coriander seed",
+    "defaultQuantity": 0.5,
+    "unit": "g"
+  },
+  "cp": {
+    "foodName": "curry powder",
+    "defaultQuantity": 1,
+    "unit": "g"
+  },
+  "cr": {
+    "foodName": "cream fluid heavy whipping organic",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "crc": {
+    "foodName": "cream cheese",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "cs": {
+    "foodName": "soup stock chicken home prepared",
+    "defaultQuantity": 200,
+    "unit": "g"
+  },
+  "cse": {
+    "foodName": "coriander seed",
+    "defaultQuantity": 0.5,
+    "unit": "g"
+  },
+  "cu": {
+    "foodName": "cucumber raw with peal",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "cum": {
+    "foodName": "cumin seed",
+    "defaultQuantity": 0.2,
+    "unit": "g"
+  },
+  "dm": {
+    "foodName": "dijon mustard",
+    "defaultQuantity": 10,
+    "unit": "g"
+  },
+  "ec": {
+    "foodName": "egg cooked",
+    "defaultQuantity": 55,
+    "unit": "g"
+  },
+  "ei": {
+    "foodName": "einkorn",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "er": {
+    "foodName": "egg whole raw fresh organic",
+    "defaultQuantity": 110,
+    "unit": "g"
+  },
+  "es": {
+    "foodName": "egg shell dried ground",
+    "defaultQuantity": 1,
+    "unit": "g"
+  },
+  "fb": {
+    "foodName": "green beans raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "fc": {
+    "foodName": "feta cheese",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "fe": {
+    "foodName": "fennel bulb raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "fp": {
+    "foodName": "peas green frozen unprepared",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "fs": {
+    "foodName": "fennel seed",
+    "defaultQuantity": 0.5,
+    "unit": "g"
+  },
+  "ga": {
+    "foodName": "garlic raw",
+    "defaultQuantity": 5,
+    "unit": "g"
+  },
+  "gb": {
+    "foodName": "green beans raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "gc": {
+    "foodName": "cabbage green raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "gfr": {
+    "foodName": "grapefruit raw pink or red",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "gfw": {
+    "foodName": "grapefruit raw white all areas",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "gg": {
+    "foodName": "ground ginger",
+    "defaultQuantity": 1,
+    "unit": "g"
+  },
+  "ggr": {
+    "foodName": "grapes - green",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "gi": {
+    "foodName": "ginger root raw",
+    "defaultQuantity": 1,
+    "unit": "g"
+  },
+  "gl": {
+    "foodName": "GliSODin Super oxide dismutase",
+    "defaultQuantity": 0.1,
+    "unit": "g"
+  },
+  "gm": {
+    "foodName": "goat milk",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "go": {
+    "foodName": "green olives",
+    "defaultQuantity": 40,
+    "unit": "g"
+  },
+  "gp": {
+    "foodName": "green bell peppers raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "gsp": {
+    "foodName": "peas green split mature seeds raw",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "ho": {
+    "foodName": "honey",
+    "defaultQuantity": 15,
+    "unit": "g"
+  },
+  "jt": {
+    "foodName": "jasmine tea",
+    "defaultQuantity": 600,
+    "unit": "g"
+  },
+  "ka": {
+    "foodName": "kale raw",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "kf": {
+    "foodName": "Khorasan uncooked",
+    "defaultQuantity": 25,
+    "unit": "g"
+  },
+  "le": {
+    "foodName": "lemons raw",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "lee": {
+    "foodName": "leeks raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "lem": {
+    "foodName": "lemongrass and ginger spices",
+    "defaultQuantity": 0.5,
+    "unit": "g"
+  },
+  "lg": {
+    "foodName": "L-glutamine",
+    "defaultQuantity": 5,
+    "unit": "g"
+  },
+  "lj": {
+    "foodName": "lemon juice raw",
+    "defaultQuantity": 5,
+    "unit": "g"
+  },
+  "ln": {
+    "foodName": "lumbrokinase and nattokinase",
+    "defaultQuantity": 1,
+    "unit": "g"
+  },
+  "ls": {
+    "foodName": "flax seeds",
+    "defaultQuantity": 20,
+    "unit": "g"
+  },
+  "ma": {
+    "foodName": "mango fresh",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "mh": {
+    "foodName": "mixed herbs",
+    "defaultQuantity": 0.1,
+    "unit": "g"
+  },
+  "mi": {
+    "foodName": "millet dry",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "min": {
+    "foodName": "spearmint dried",
+    "defaultQuantity": 0.1,
+    "unit": "g"
+  },
+  "mn": {
+    "foodName": "mixed nuts with peanuts dgm",
+    "defaultQuantity": 20,
+    "unit": "g"
+  },
+  "mo": {
+    "foodName": "mozzarella cheese whole milk",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "mol": {
+    "foodName": "molasses dark",
+    "defaultQuantity": 15,
+    "unit": "g"
+  },
+  "mp": {
+    "foodName": "miso paste",
+    "defaultQuantity": 5,
+    "unit": "g"
+  },
+  "ms": {
+    "foodName": "maple syrup",
+    "defaultQuantity": 10,
+    "unit": "g"
+  },
+  "mu": {
+    "foodName": "mung bean flour",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "na": {
+    "foodName": "negative adjustment",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "nac": {
+    "foodName": "N-acetylcysteine NAC",
+    "defaultQuantity": 0.6,
+    "unit": "g"
+  },
+  "nadh": {
+    "foodName": "NADH",
+    "defaultQuantity": 1,
+    "unit": "g"
+  },
+  "nu": {
+    "foodName": "nutmeg",
+    "defaultQuantity": 0.5,
+    "unit": "g"
+  },
+  "of": {
+    "foodName": "oat flour whole grain",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "om": {
+    "foodName": "oyster mushrooms raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "oo": {
+    "foodName": "extra virgin olive oil",
+    "defaultQuantity": 15,
+    "unit": "g"
+  },
+  "op": {
+    "foodName": "oyster pacific raw",
+    "defaultQuantity": 40,
+    "unit": "g"
+  },
+  "or": {
+    "foodName": "orange fresh",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "ore": {
+    "foodName": "oregano dried",
+    "defaultQuantity": 0.1,
+    "unit": "g"
+  },
+  "oy": {
+    "foodName": "oysters pacific raw",
+    "defaultQuantity": 30,
+    "unit": "g"
+  },
+  "pa": {
+    "foodName": "positive adjustment",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "pap": {
+    "foodName": "spices paprika",
+    "defaultQuantity": 0.5,
+    "unit": "g"
+  },
+  "pb": {
+    "foodName": "peanut butter chunk",
+    "defaultQuantity": 15,
+    "unit": "g"
+  },
+  "pc": {
+    "foodName": "popcorn hot air popped",
+    "defaultQuantity": 30,
+    "unit": "g"
+  },
+  "pe": {
+    "foodName": "black pepper ground",
+    "defaultQuantity": 0.1,
+    "unit": "g"
+  },
+  "pea": {
+    "foodName": "peach fresh",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "peas": {
+    "foodName": "peas green frozen unprepared",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "pi": {
+    "foodName": "pineapple raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "pm": {
+    "foodName": "portabella mushrooms raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "pn": {
+    "foodName": "peanuts raw",
+    "defaultQuantity": 30,
+    "unit": "g"
+  },
+  "po": {
+    "foodName": "potato",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "pom": {
+    "foodName": "pomegranate raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "pr": {
+    "foodName": "prawns raw dgm",
+    "defaultQuantity": 200,
+    "unit": "g"
+  },
+  "ps": {
+    "foodName": "pumpkin seeds dgm",
+    "defaultQuantity": 15,
+    "unit": "g"
+  },
+  "pu": {
+    "foodName": "pumpkin raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "qu": {
+    "foodName": "quinoa red dry",
+    "defaultQuantity": 25,
+    "unit": "g"
+  },
+  "ra": {
+    "foodName": "raspberries raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "rad": {
+    "foodName": "radish raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "rc": {
+    "foodName": "red cabbage raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "re": {
+    "foodName": "egg whole raw fresh organic",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "rf": {
+    "foodName": "rye flour",
+    "defaultQuantity": 25,
+    "unit": "g"
+  },
+  "rg": {
+    "foodName": "grapes - red",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "rj": {
+    "foodName": "raspberry juice",
+    "defaultQuantity": 20,
+    "unit": "g"
+  },
+  "rl": {
+    "foodName": "lentils - red",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "ro": {
+    "foodName": "red onion dgm",
+    "defaultQuantity": 80,
+    "unit": "g"
+  },
+  "roi": {
+    "foodName": "rapeseed oil",
+    "defaultQuantity": 10,
+    "unit": "g"
+  },
+  "ros": {
+    "foodName": "rosemary dried",
+    "defaultQuantity": 0.2,
+    "unit": "g"
+  },
+  "rp": {
+    "foodName": "red bell pepper",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "rq": {
+    "foodName": "quinoa red dry",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "rr": {
+    "foodName": "red rice dgm",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "rw": {
+    "foodName": "red wine",
+    "defaultQuantity": 85,
+    "unit": "g"
+  },
+  "sa": {
+    "foodName": "salt",
+    "defaultQuantity": 2,
+    "unit": "g"
+  },
+  "safc": {
+    "foodName": "salmon farmed cooked",
+    "defaultQuantity": 80,
+    "unit": "g"
+  },
+  "safr": {
+    "foodName": "fish salmon atlantic farmed raw",
+    "defaultQuantity": 125,
+    "unit": "g"
+  },
+  "sam": {
+    "foodName": "samphire fresh raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "sawr": {
+    "foodName": "fish salmon atlantic wild raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "sb": {
+    "foodName": "strawberries raw",
+    "defaultQuantity": 200,
+    "unit": "g"
+  },
+  "sc": {
+    "foodName": "sweetcorn dgm",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "se": {
+    "foodName": "seaweed kelp raw",
+    "defaultQuantity": 0.1,
+    "unit": "g"
+  },
+  "sfl": {
+    "foodName": "spelt flour",
+    "defaultQuantity": 25,
+    "unit": "g"
+  },
+  "sfr": {
+    "foodName": "salmon farmed raw",
+    "defaultQuantity": 125,
+    "unit": "g"
+  },
+  "sg": {
+    "foodName": "spring greens",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "sh": {
+    "foodName": "shrimp mixed species raw",
+    "defaultQuantity": 170,
+    "unit": "g"
+  },
+  "so": {
+    "foodName": "spring onions raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "sp": {
+    "foodName": "sweet potato",
+    "defaultQuantity": 150,
+    "unit": "g"
+  },
+  "spi": {
+    "foodName": "spinach raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "ss": {
+    "foodName": "sunflower seeds dry roasted",
+    "defaultQuantity": 15,
+    "unit": "g"
+  },
+  "st": {
+    "foodName": "strawberries raw",
+    "defaultQuantity": 200,
+    "unit": "g"
+  },
+  "su": {
+    "foodName": "sumac",
+    "defaultQuantity": 0.5,
+    "unit": "g"
+  },
+  "sw": {
+    "foodName": "swede raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "swe": {
+    "foodName": "seaweed kelp raw",
+    "defaultQuantity": 0.2,
+    "unit": "g"
+  },
+  "ta": {
+    "foodName": "tarragon dried",
+    "defaultQuantity": 0.1,
+    "unit": "g"
+  },
+  "to": {
+    "foodName": "tomato raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "tu": {
+    "foodName": "turnip raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "tur": {
+    "foodName": "ground turmeric",
+    "defaultQuantity": 0.5,
+    "unit": "g"
+  },
+  "ub": {
+    "foodName": "ubiquinol coQ10",
+    "defaultQuantity": 0.4,
+    "unit": "g"
+  },
+  "vc": {
+    "foodName": "Vitamin c",
+    "defaultQuantity": 1,
+    "unit": "g"
+  },
+  "ve": {
+    "foodName": "vanilla extract",
+    "defaultQuantity": 2,
+    "unit": "g"
+  },
+  "wc": {
+    "foodName": "watercress raw",
+    "defaultQuantity": 40,
+    "unit": "g"
+  },
+  "wfl": {
+    "foodName": "whole wheat flour",
+    "defaultQuantity": 25,
+    "unit": "g"
+  },
+  "wm": {
+    "foodName": "mushrooms white raw",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "wme": {
+    "foodName": "watermelon fresh",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "wq": {
+    "foodName": "quinoa white dry",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "wr": {
+    "foodName": "rocket raw",
+    "defaultQuantity": 30,
+    "unit": "g"
+  },
+  "wri": {
+    "foodName": "wild rice raw",
+    "defaultQuantity": 50,
+    "unit": "g"
+  },
+  "yp": {
+    "foodName": "yellow bell pepper raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  },
+  "zn": {
+    "foodName": "H&B Zinc",
+    "defaultQuantity": 1,
+    "unit": "g"
+  },
+  "zu": {
+    "foodName": "courgettes raw",
+    "defaultQuantity": 100,
+    "unit": "g"
+  }
+}

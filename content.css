@@ -1,0 +1,16 @@
+/* CSS stylings can be minimal since inline styles isolate the sidebar layout from page overrides */
+#cronometer-sc-toggle {
+  animation: cronometer-pulse 3s infinite;
+}
+
+@keyframes cronometer-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(76, 175, 80, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+  }
+}
